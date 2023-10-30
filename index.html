@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat bot</title>
+    <link rel="stylesheet" href="index.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="index.js" defer></script>
+</head>
+<body class="show-chatbot">
+    <!-- This is for toggling the container   -->
+    <!-- <button class="chatbot-toggle">
+        <span>Start</span>
+        <span>Close</span>
+    </button> -->
+    <div class="chatbot">
+        <header style="display: flex;justify-content: center;gap: 15px;">
+            <h2>Chatbot</h2>
+            <i id="bot" class='bx bxs-bot'></i>
+            <!--  This is for toggling the container -->
+            <!-- <span id="Close" style="cursor: pointer;">Close</span> -->
+        </header>
+        <ul class="chatbox">
+
+            <li class="ChatIncoming" >
+             <!-- This will display the ai generated data-->
+                <p>Hi there 👋, <br>How can I help you today ?</p> 
+            </li>
+             
+        </ul>
+
+        <!--  Send button with our questions -->
+        <div class="chat_input"> 
+            <textarea placeholder="Entern your message..." required></textarea>
+            <span id="send_btn" class=""><i class='bx bx-send'></i></span>
+        </div>
+    </div>
+
+   
+</body>
+</html>
