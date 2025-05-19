@@ -1,10 +1,24 @@
-# Chatbot
-HTML , CSS and JAVASCRIPT
+# ChatBot using ChatGPT API
+This project is a simple, responsive chatbot web application built using HTML, CSS, and JavaScript, integrated with the ChatGPT API (OpenAI). The chatbot interacts with users in a conversational format and responds based on user input using real-time API calls.
 
+# Features
+- Clean and responsive UI
+- Real-time interaction with ChatGPT via API
+- Scrollable chat history
+- Easy to integrate and customize
 
-In this i used chatgpt api for getting the information related to user's doubt.This will applicable for all type of screen like mobile phone,tablet,laptop etc.And also i used some animation here like moving bot icon etc. 
-Below link shows the chatbot  my projects...
+# Technologies Used
+- HTML5 – For the structure of the chatbot UI
+- CSS3 – For styling the chatbot (flex layout, colors, responsiveness)
+- JavaScript (Vanilla) – For handling logic and API integration
+- OpenAI ChatGPT API – For generating chatbot responses
 
-https://653dca5fde07b0246dbdf1bc--loquacious-eclair-3fcc1b.netlify.app/
+# Prerequisites
+- A valid OpenAI API Key
+- A basic web server (VS Code Live Server or similar) to test locally
 
-If you get the answer as Oops ! something went wrong that means you are in offline or the api key may be expired ........
+# How It Works
+- User enters a message in the input field.
+- On submit, JavaScript sends the message to the ChatGPT API using fetch().
+- The response is parsed and displayed in the chat window dynamically.
+- All messages are appended to the chat log, preserving the conversation context (if implemented).
